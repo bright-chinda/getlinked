@@ -1831,6 +1831,13 @@ button {
   .nav-active {
     height: 260px;
   }
+  .input-flex-cont{
+    flex-direction: column;
+    gap: 15px;
+  }
+  .iput-cont.register-input{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 550px) {
