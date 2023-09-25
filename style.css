@@ -1196,6 +1196,10 @@ aside {
   border: 1px solid white;
   resize: none;
 }
+.share-cont{
+  display: none;
+  justify-content: center;
+}
 .contact-input textarea::placeholder {
   color: white;
 }
@@ -1767,10 +1771,10 @@ button {
     width: 70%;
   }
   .contact-page-container {
-    display: none;
-  }
-  .contact-mobile-container {
     display: block;
+  }
+  .register-context{
+    width: 100%;
   }
   .get-in-touch-pink-star {
     width: 3%;
@@ -1790,6 +1794,22 @@ button {
   }
   .get-in-touch {
     width: 100%;
+    display: none;
+  }
+  .contact-context{
+    background-color: transparent;
+    width: 100%;
+    padding: 15px 0;
+  }
+  .share-cont{
+    display: flex;
+    justify-content: center;
+  }
+  .share{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
   }
   .Confirmation-img {
     width: 58%;
