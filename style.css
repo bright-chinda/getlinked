@@ -1792,6 +1792,16 @@ button {
     display: flex;
     justify-content: center;
   }
+  .register-pink-back{
+    top: 75%;
+    left: 55%;
+  }
+  .register-pink-back .img{
+    height: 200px;
+  }
+  .get-in-touch.register-touch{
+    display: block;
+  }
   .get-in-touch {
     width: 100%;
     display: none;
